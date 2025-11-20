@@ -69,7 +69,7 @@ const Signup: React.FC = () => {
 
   const onSubmit = async (data: SignupForm) => {
     console.log("Signup Data:", data);
-    alert("Account created successfully!");
+    alert("Welcome to ICT Chamber Help Center!");
     navigate(originPage || "/", { replace: true });
   };
 
@@ -79,9 +79,9 @@ const Signup: React.FC = () => {
       <div className="mb-10 w-full flex justify-end md:justify-center">
         <LogoModule
           data={{
-            src: "/assets/logo.svg",
-            title: "KGExpress",
-            subtitle: "Powered by Kigalishopexpress",
+            src: "/public/assets/ict_chamber_1.jpeg",
+            title: "ICT Chamber Help Center",
+            subtitle: "Digital Transformation Support",
           }}
           align="center"
         />
@@ -90,10 +90,10 @@ const Signup: React.FC = () => {
       {/* Card */}
       <div className="w-full max-w-md rounded-2xl px-8 bg-none backdrop-blur-sm">
         <h2 className="text-2xl font-semibold text-center text-gray-800">
-          Create your KGExpress Account
+          Create your ICT Chamber Account
         </h2>
         <p className="text-gray-500 text-sm text-center mb-8">
-          Join the fastest-growing shopping platform in Africa.
+          Access support, resources, and digital transformation services
         </p>
 
         {/* Account Type Switch */}
