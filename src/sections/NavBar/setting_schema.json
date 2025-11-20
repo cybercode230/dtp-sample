@@ -1,0 +1,51 @@
+{
+  "row1": [
+    {
+      "id": "logoModule",
+      "type": "logo",
+      "visible": true,
+      "responsive": { "sm": "center", "md": "left" }
+    },
+    {
+      "id": "languageCurrencyModule",
+      "type": "dropdown",
+      "visible": true,
+      "icon": "globe",
+      "responsive": { "sm": "center", "md": "right" }
+    },
+    {
+      "id": "notificationsModule",
+      "type": "iconBadge",
+      "visible": true,
+      "icon": "message",
+      "responsive": { "sm": "center", "md": "right" }
+    },
+    {
+      "id": "ordersDeliveryModule",
+      "type": "dropdown",
+      "visible": true,
+      "responsive": { "sm": "center", "md": "right" }
+    },
+    {
+      "id": "cartModule",
+      "type": "dropdownCart",
+      "visible": true,
+      "responsive": { "sm": "center", "md": "right" }
+    },
+    {
+      "id": "accountModule",
+      "type": "dropdownAccount",
+      "visible": true,
+      "responsive": { "sm": "center", "md": "right" }
+    }
+  ],
+  "row2": [
+    {
+      "id": "categoriesModule",
+      "type": "categoriesList",
+      "visible": true,
+      "maxVisible": 6,
+      "moreDropdown": true
+    }
+  ]
+}

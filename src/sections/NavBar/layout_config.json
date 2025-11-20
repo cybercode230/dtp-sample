@@ -1,0 +1,11 @@
+{
+  "modules": [
+    { "name": "logoModule", "visible": true, "align": "left" },
+    { "name": "languageCurrencyModule", "visible": true, "align": "right" },
+    { "name": "notificationsModule", "visible": true, "align": "right" },
+    { "name": "ordersDeliveryModule", "visible": true, "align": "right" },
+    { "name": "cartModule", "visible": true, "align": "right" },
+    { "name": "accountModule", "visible": true, "align": "right" },
+    { "name": "categoriesModule", "visible": true, "align": "left" }
+  ]
+}

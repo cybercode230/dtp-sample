@@ -1,0 +1,19 @@
+{
+  "modules": [
+    {
+      "name": "ImageSearch",
+      "visible": true,
+      "align": "right"
+    },
+    {
+      "name": "SuggestionSearchList",
+      "visible": true,
+      "align": "center"
+    },
+    {
+      "name": "SearchButton",
+      "visible": true,
+      "align": "right"
+    }
+  ]
+}

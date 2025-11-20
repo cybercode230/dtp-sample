@@ -1,0 +1,41 @@
+{
+  "searchSection": {
+    "placeholder": "What are you looking for today?",
+    "suggestions": [
+      "Smartphones",
+      "Headphones",
+      "Women Dresses",
+      "Laptops",
+      "Gaming Console",
+      "Car Accessories",
+      "Furniture",
+      "Men's Shoes",
+      "Watches",
+      "Bags & Backpacks",
+      "Kitchen Appliances",
+      "Books",
+      "Sports Equipment",
+      "Beauty & Skincare",
+      "Toys & Kids",
+      "Home Decor",
+      "Pet Supplies",
+      "Smart Home Devices",
+      "Camera & Photography",
+      "Stationery",
+      "Jewelry",
+      "Outdoor Gear",
+      "Musical Instruments",
+      "Fitness Accessories"
+    ],
+    "imageSearchOptions": [
+      {
+        "icon": "Image",
+        "tooltip": "Select from gallery"
+      }
+    ],
+    "button": {
+      "label": "Search",
+      "icon": "Search"
+    }
+  }
+}

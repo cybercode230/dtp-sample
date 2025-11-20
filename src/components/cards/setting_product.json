@@ -1,0 +1,72 @@
+[
+  {
+    "id": "topDeals",
+    "title": "Top Deals",
+    "subtitle": "Score the lowest prices on Alibaba.com",
+    "viewMore": "View more",
+    "products": [
+      {
+        "name": "Smartphone XYZ",
+        "images": [
+          "/assets/images/smartphone.avif",
+          "/assets/images/smartphones.png"
+        ],
+        "price": 150000,
+        "discount": 170000,
+        "quantity": 1
+      },
+      {
+        "name": "Headphones ABC",
+        "images": ["/assets/images/headphon.jpeg"],
+        "price": 50000,
+        "discount": 60000,
+        "quantity": 1
+      },
+      {
+        "name": "Laptop Pro",
+        "images": ["/assets/images/laptop.png"],
+        "price": 800000,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "topRanking",
+    "title": "Top Ranking",
+    "subtitle": "Navigate trends with data-driven rankings",
+    "viewMore": "View more",
+    "products": [
+      {
+        "name": "Men's Shoes",
+        "images": ["/assets/images/mans-shoes.jpg"],
+        "price": 120000,
+        "discount": 140000,
+        "quantity": 1
+      },
+      {
+        "name": "Smart Watch",
+        "images": ["/assets/images/smart-watches.jpeg"],
+        "price": 95000,
+        "discount": 110000,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "newArrivals",
+    "title": "New Arrivals",
+    "subtitle": "Stay ahead with the latest offerings",
+    "viewMore": "View more",
+    "products": [
+      {
+        "name": "Laptop Pro",
+        "images": [
+          "/assets/images/laptop.png",
+          "/assets/images/laptops.avif"
+        ],
+        "price": 800000,
+        "quantity": 1
+      }
+    ]
+  }
+]

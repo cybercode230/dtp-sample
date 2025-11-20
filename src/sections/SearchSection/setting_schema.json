@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "searchSection": {
+      "type": "object",
+      "properties": {
+        "placeholder": { "type": "string" },
+        "suggestions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "imageSearchOptions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": { "type": "string" },
+              "tooltip": { "type": "string" }
+            },
+            "required": ["icon", "tooltip"]
+          }
+        },
+        "button": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "icon": { "type": "string" }
+          },
+          "required": ["label", "icon"]
+        }
+      },
+      "required": ["placeholder", "suggestions", "imageSearchOptions", "button"]
+    }
+  },
+  "required": ["searchSection"]
+}

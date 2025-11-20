@@ -1,0 +1,104 @@
+{
+  "logoModule": {
+    "src": "/public/assets/logo.svg",
+    "title": "KGExpress",
+    "subtitle": "From Your Street to Your Doorstep"
+  },
+  "languageCurrencyModule": {
+    "defaultLanguage": "English",
+    "defaultCurrency": "RWF",
+    "languages": ["English", "Kinyarwanda", "French"],
+    "currencies": ["RWF", "USD"]
+  },
+  "notificationsModule": {
+    "unreadCount": 3
+  },
+  "ordersDeliveryModule": {
+    "options": [
+      { "label": "My Orders", "path": "/orders" },
+      { "label": "Track Delivery", "path": "/delivery" }
+    ]
+  },
+  "cartModule": {
+    "items": [],
+    "emptyMessage": "Your cart is empty!",
+    "buttons": ["View Cart", "Checkout"]
+  },
+  "accountModule": {
+    "signedIn": false,
+    "username": "cyber!",
+    "dropdownItems": [
+      "Sign In",
+      "Register",
+      "My Orders",
+      "My Coins",
+      "Message Center",
+      "Payment",
+      "Wish List",
+      "My Coupons",
+      "Settings",
+      "AliExpress Business",
+      "DS Center",
+      "Seller Log In",
+      "Return & Refund Policy",
+      "Help Center",
+      "Disputes & Reports",
+      "Report IPR Infringement"
+    ]
+  },
+  "categoriesModule": {
+    "categories": [
+      "All Categories",
+      "Super Deals",
+      "Home Improvement & Lighting",
+      "Women's Clothing",
+      "Automotive & Motorcycle",
+      "Jewelry & Watches",
+      "Sports & Entertainment",
+      "Electronics & Gadgets"
+    ]
+  },
+  "subCategories": {
+    "Super Deals": [
+      { "name": "Flash Sales", "image": "/assets/flash-sale.png" },
+      { "name": "Hot Deals", "image": "/assets/hot-deals.png" }
+    ],
+    "Home Improvement & Lighting": [
+      { "name": "Lighting", "image": "/assets/lighting.png" },
+      { "name": "Tools", "image": "/assets/tools.png" },
+      { "name": "Furniture", "image": "/assets/furniture.png" }
+    ],
+    "Women's Clothing": [
+      { "name": "Dresses", "image": "/assets/dress.png" },
+      { "name": "Tops", "image": "/assets/top.png" },
+      { "name": "Shoes", "image": "/assets/shoes.png" }
+    ],
+    "Automotive & Motorcycle": [
+      { "name": "Motorcycles", "image": "/assets/motorcycle.png" },
+      { "name": "Car Systems", "image": "/assets/car-system.png" },
+      { "name": "Floor Mats", "image": "/assets/floor-mat.png" }
+    ],
+    "Jewelry & Watches": [
+      { "name": "Necklaces", "image": "/assets/necklace.png" },
+      { "name": "Watches", "image": "/assets/watch.png" },
+      { "name": "Rings", "image": "/assets/ring.png" }
+    ],
+    "Sports & Entertainment": [
+      { "name": "Sports Gear", "image": "/assets/sports-gear.png" },
+      { "name": "Video Games", "image": "/assets/video-games.png" }
+    ],
+    "Electronics & Gadgets": [
+      { "name": "Smartphones", "image": "/assets/smartphone.png" },
+      { "name": "Headphones", "image": "/assets/headphones.png" },
+      { "name": "Wearables", "image": "/assets/wearables.png" }
+    ]
+  },
+  "shops": [
+    { "name": "MINISO", "location": "Kigali", "image": "/assets/miniso.png" },
+    { "name": "MIJIA", "location": "Kigali", "image": "/assets/mijia.png" },
+    { "name": "XIAOMI", "location": "Kigali", "image": "/assets/xiaomi.png" },
+    { "name": "ESSAGER", "location": "Kigali", "image": "/assets/essager.png" },
+    { "name": "VIKEFON", "location": "Kigali", "image": "/assets/vikefon.png" },
+    { "name": "Lenovo", "location": "Kigali", "image": "/assets/lenovo.png" }
+  ]
+}
