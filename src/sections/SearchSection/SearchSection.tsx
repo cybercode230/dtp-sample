@@ -28,12 +28,12 @@ const SearchSection: React.FC = () => {
         </div>
         <motion.input
           type="text"
-          placeholder="Search your question..."
+          placeholder="What do you want to know about DTP Program..."
           value={searchValue}
           onChange={(e:any) => setSearchValue(e.target.value)}
           className="flex-1 border border-gray-300 rounded-full pl-10 py-3 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300 w-full"
         />
-        <SearchButton label="Search" icon="Search" onClick={handleSearch} />
+        <SearchButton label="Find answer" icon="Search" onClick={handleSearch} />
       </motion.div>
 
       <div className="w-full max-w-6xl mt-4 px-1 sm:px-0">

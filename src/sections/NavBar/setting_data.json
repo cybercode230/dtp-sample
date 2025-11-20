@@ -1,104 +1,109 @@
 {
   "logoModule": {
-    "src": "/public/assets/logo.svg",
-    "title": "KGExpress",
-    "subtitle": "From Your Street to Your Doorstep"
+    "src": "/public/assets/ict_chamber_1.jpeg",
+    "title": "ICT Chamber – Rwanda",
+    "subtitle": "Digital Transformation Program • Help Center & Knowledge Hub"
   },
-  "languageCurrencyModule": {
+  "languageModule": {
     "defaultLanguage": "English",
-    "defaultCurrency": "RWF",
-    "languages": ["English", "Kinyarwanda", "French"],
-    "currencies": ["RWF", "USD"]
-  },
-  "notificationsModule": {
-    "unreadCount": 3
-  },
-  "ordersDeliveryModule": {
-    "options": [
-      { "label": "My Orders", "path": "/orders" },
-      { "label": "Track Delivery", "path": "/delivery" }
+    "languages": [
+      "English",
+      "Kinyarwanda",
+      "French"
     ]
   },
-  "cartModule": {
-    "items": [],
-    "emptyMessage": "Your cart is empty!",
-    "buttons": ["View Cart", "Checkout"]
+  "notificationsModule": {
+    "unreadCount": 0
   },
   "accountModule": {
     "signedIn": false,
-    "username": "cyber!",
+    "username": "Guest",
     "dropdownItems": [
       "Sign In",
       "Register",
-      "My Orders",
-      "My Coins",
-      "Message Center",
-      "Payment",
-      "Wish List",
-      "My Coupons",
-      "Settings",
-      "AliExpress Business",
-      "DS Center",
-      "Seller Log In",
-      "Return & Refund Policy",
+      "My Profile",
+      "Support Tickets",
       "Help Center",
-      "Disputes & Reports",
-      "Report IPR Infringement"
+      "Settings",
+      "Logout"
     ]
   },
-  "categoriesModule": {
+  "supportCategories": {
     "categories": [
-      "All Categories",
-      "Super Deals",
-      "Home Improvement & Lighting",
-      "Women's Clothing",
-      "Automotive & Motorcycle",
-      "Jewelry & Watches",
-      "Sports & Entertainment",
-      "Electronics & Gadgets"
+      "General Information",
+      "Program Eligibility",
+      "How to Apply",
+      "Digital Tools",
+      "Training Resources",
+      "Technical Support",
+      "Policies & Guidelines",
+      "Contact & Assistance"
     ]
   },
   "subCategories": {
-    "Super Deals": [
-      { "name": "Flash Sales", "image": "/assets/flash-sale.png" },
-      { "name": "Hot Deals", "image": "/assets/hot-deals.png" }
+    "General Information": [
+      {
+        "name": "About DTP"
+      },
+      {
+        "name": "Program Purpose"
+      }
     ],
-    "Home Improvement & Lighting": [
-      { "name": "Lighting", "image": "/assets/lighting.png" },
-      { "name": "Tools", "image": "/assets/tools.png" },
-      { "name": "Furniture", "image": "/assets/furniture.png" }
+    "Program Eligibility": [
+      {
+        "name": "Who Can Apply"
+      },
+      {
+        "name": "Required Documents"
+      }
     ],
-    "Women's Clothing": [
-      { "name": "Dresses", "image": "/assets/dress.png" },
-      { "name": "Tops", "image": "/assets/top.png" },
-      { "name": "Shoes", "image": "/assets/shoes.png" }
+    "How to Apply": [
+      {
+        "name": "Application Steps"
+      },
+      {
+        "name": "Submission Tips"
+      }
     ],
-    "Automotive & Motorcycle": [
-      { "name": "Motorcycles", "image": "/assets/motorcycle.png" },
-      { "name": "Car Systems", "image": "/assets/car-system.png" },
-      { "name": "Floor Mats", "image": "/assets/floor-mat.png" }
+    "Digital Tools": [
+      {
+        "name": "Platform Overview"
+      },
+      {
+        "name": "User Manuals"
+      }
     ],
-    "Jewelry & Watches": [
-      { "name": "Necklaces", "image": "/assets/necklace.png" },
-      { "name": "Watches", "image": "/assets/watch.png" },
-      { "name": "Rings", "image": "/assets/ring.png" }
+    "Training Resources": [
+      {
+        "name": "Video Tutorials"
+      },
+      {
+        "name": "Downloads"
+      }
     ],
-    "Sports & Entertainment": [
-      { "name": "Sports Gear", "image": "/assets/sports-gear.png" },
-      { "name": "Video Games", "image": "/assets/video-games.png" }
+    "Technical Support": [
+      {
+        "name": "Common Issues"
+      },
+      {
+        "name": "Report a Problem"
+      }
     ],
-    "Electronics & Gadgets": [
-      { "name": "Smartphones", "image": "/assets/smartphone.png" },
-      { "name": "Headphones", "image": "/assets/headphones.png" },
-      { "name": "Wearables", "image": "/assets/wearables.png" }
+    "Policies & Guidelines": [
+      {
+        "name": "Terms of Use"
+      },
+      {
+        "name": "User Policy"
+      }
+    ],
+    "Contact & Assistance": [
+      {
+        "name": "Support Lines"
+      },
+      {
+        "name": "Email & Office Hours"
+      }
     ]
-  },
-  "shops": [
-    { "name": "MINISO", "location": "Kigali", "image": "/assets/miniso.png" },
-    { "name": "MIJIA", "location": "Kigali", "image": "/assets/mijia.png" },
-    { "name": "XIAOMI", "location": "Kigali", "image": "/assets/xiaomi.png" },
-    { "name": "ESSAGER", "location": "Kigali", "image": "/assets/essager.png" },
-    { "name": "VIKEFON", "location": "Kigali", "image": "/assets/vikefon.png" },
-    { "name": "Lenovo", "location": "Kigali", "image": "/assets/lenovo.png" }
-  ]
+  }
 }
