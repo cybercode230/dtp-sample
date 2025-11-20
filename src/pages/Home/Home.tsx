@@ -1,58 +1,35 @@
 import React, { Suspense, lazy } from "react";
-import homeSections from "../../components/cards/setting_product.json";
 
-
-// Lazy imports for sections
-const NavBar = lazy(() => import("../../sections/NavBar/NavBar"));
+// Lazy import for SearchSection
 const SearchSection = lazy(() => import("../../sections/SearchSection/SearchSection"));
-
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
-      {/* Navbar */}
-      <Suspense fallback={<div className="w-full h-20 bg-gray-200 animate-pulse" />}>
-        <NavBar />
-      </Suspense>
+    <div className="flex flex-col min-h-screen bg-white px-4 sm:px-10 py-10">
+      {/* Header / Help Center Introduction */}
+      <header className="text-center mb-10">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          DTP Help Center – ICT Chamber
+        </h1>
+        <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-2">
+          Welcome to the Digital Transformation Program (DTP) Help Center. 
+        </p>
+        <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+          Here you can find guidance, resources, and support for using digital tools and programs provided by the ICT Chamber. 
+          Use the search below to quickly locate FAQs, tutorials, and documentation to help you get started and solve issues efficiently.
+        </p>
+      </header>
 
-      {/* Hero / Search Section */}
-      <div className="w-full flex justify-center mt-6 px-4 sm:px-10">
-        <Suspense fallback={<div className="w-full max-w-4xl h-24 bg-gray-200 rounded-xl animate-pulse" />}>
+      {/* Search Section */}
+      <div className="w-full flex justify-center">
+        <Suspense
+          fallback={
+            <div className="w-full max-w-4xl h-24 bg-gray-200 rounded-xl animate-pulse" />
+          }
+        >
           <SearchSection />
         </Suspense>
       </div>
-
-      {/* Savings Booster Section */}
-      <div className="w-full mt-10 px-4 sm:px-0">
-        <Suspense fallback={
-          <div className="w-full max-w-6xl mx-auto h-64 bg-gray-200 rounded-xl animate-pulse" />
-        }>
-          <SavingsBoosterSection />
-        </Suspense>
-      </div>    
-      {/* single product section */}
-      <div className="w-full mt-10 px-4 sm:px-0">
-        <Suspense fallback={
-          <div className="w-full max-w-6xl mx-auto h-64 bg-gray-200 rounded-xl animate-pulse" />
-        }>
-         {homeSections.map((section) => (
-  <ProductSection
-    key={section.id}
-    title={section.title}
-    subtitle={section.subtitle}
-    viewMore={section.viewMore}
-    products={section.products}
-  />
-))}
-        </Suspense>
-      </div>      
-
-      {/* Optional Footer */}
-<Suspense fallback={
-          <div className="w-full max-w-6xl mx-auto h-64 bg-gray-200 rounded-xl animate-pulse" />
-        }>
-          <Footer />
-        </Suspense>
     </div>
   );
 };

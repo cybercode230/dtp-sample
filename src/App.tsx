@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import NotFound from "./pages/security/NotFound";
+import NotFound from "./pages/security/Notfound";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const AuthIndex = lazy(() => import("./pages/Auths/Index"));
